@@ -1,4 +1,4 @@
-# rockpaperscissors.py
+# Rock Paper Scissors Game (Python)
 This is a script to make rock paper scissors game with Python programming language
 <br></br>
 The flow of this program is as follows:
