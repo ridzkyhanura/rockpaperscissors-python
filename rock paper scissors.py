@@ -24,7 +24,7 @@ print('')
 ongame = 1
 player_score = 0
 com_score = 0
-game_count = 0
+numofgames = 0
 player_name = input('What is your name?: ')
 if player_name == '':
     player_name = 'Guest'
@@ -32,7 +32,7 @@ else:
     pass
 while ongame == 1:
     handmenu = 1
-    game_count += 1
+    numofgames += 1
     while handmenu == 1:
         print('')
         print('Choose hand:')
@@ -72,7 +72,7 @@ while ongame == 1:
             print('')
 print('')
 print('Statistics:')
-print('Game count: ' + str(game_count) + ' times')
+print('Number of games: ' + str(numofgames) + ' times')
 print('Final score ' + player_name + ' VS Computer: ' + str(player_score) + ' - ' + str(com_score))
 print('')
 print(player_name + ' ends the game')    
