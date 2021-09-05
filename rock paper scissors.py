@@ -65,7 +65,7 @@ while ongame == 1:
         if continu == 'Y' or continu == 'y':
             continuemenu = 0
         elif continu == 'N' or continu == 'n':
-            continumenu = 0
+            continuemenu = 0
             ongame = 0
         else:
             print('Your input must be Y or N!')
